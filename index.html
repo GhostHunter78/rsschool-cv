@@ -394,17 +394,25 @@
             <pre
               class="text-green-300 text-sm sm:text-base font-mono px-4 py-3 min-w-full"
             >
+      <span class="text-white">Case:</span> 
+      <span class="text-gray-300"> Your task is to make a function that can take any non-negative integer
+       as an argument and return it with its digits in descending order.
+       Essentially, rearrange the digits to create the highest possible number.</span>
+
+      <span class="text-white">Example:</span>
+      <span class="text-gray-300"> Input: 42145 Output: 54421</span>
+
+      <span class="text-white">Solution:</span>
       <code>
-      function descendingOrder(n) {
-        if (n &lt; 0) {
-          return null;
-        } else {
-          const converted = String(n).split("");
-          const descended = converted.sort().reverse();
-          const result = Number(descended.join(""));
-          return result;
-        }
-      }
+        function descendingOrder(n) {
+          if (n &lt; 0) {
+            return null;
+          } else {
+            const converted = String(n).split("");
+            const descended = converted.sort().reverse();
+            const result = Number(descended.join(""));
+            return result;
+          }
       </code>
           </pre>
           </div>
