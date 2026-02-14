@@ -1,0 +1,55 @@
+.nav-link {
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  transition:
+    color 150ms,
+    background-color 150ms;
+  color: #60a5fa;
+  font-weight: 500;
+}
+.nav-link:hover {
+  background-color: #eff6ff;
+  color: #1e40af;
+}
+
+.section-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #3b82f6;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow:
+    0 4px 6px -1px rgb(0 0 0 / 0.1),
+    0 2px 4px -2px rgb(0 0 0 / 0.1);
+  padding: 1rem;
+}
+
+.link-blue {
+  color: #60a5fa;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.text-meta {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #9ca3af;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #374151;
+  display: flex;
+  align-items: center;
+}

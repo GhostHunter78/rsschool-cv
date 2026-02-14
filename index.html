@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Luka Talakvadze - CV</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="global.css" />
   </head>
 
   <body
     class="max-w-4xl mx-auto flex-col items-center justify-center bg-gray-200"
   >
-    <!-- header -->
     <header class="w-full flex items-start justify-start p-4">
       <div class="flex items-center justify-center gap-x-4">
         <img
@@ -24,111 +24,173 @@
         </div>
       </div>
     </header>
+    <!-- navigation links -->
+    <nav class="my-6 w-full px-4">
+      <div
+        class="bg-white rounded-full shadow-sm border border-blue-100 px-4 py-2 lg:px-3"
+      >
+        <h2 class="section-title text-center">Navigate through my CV</h2>
+        <ul class="flex flex-wrap justify-center gap-3 lg:gap-1">
+          <li>
+            <a href="#contacts" class="nav-link">Contact</a>
+          </li>
+          <li>
+            <a href="#personal" class="nav-link">Personal</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#code-example" class="nav-link">Code Example</a>
+          </li>
+          <li>
+            <a href="#work-experience" class="nav-link">Work Experience</a>
+          </li>
+          <li>
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li>
+            <a href="#english" class="nav-link">English</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!-- main -->
     <main class="w-full flex flex-col items-start justify-start p-4">
-      <!-- contacts section -->
-      <section id="contacts" class="mb-6">
-        <h2 class="text-lg font-semibold mb-2 text-blue-500">Contact</h2>
-        <ul class="space-y-1">
-          <li class="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="size-5"
-            >
-              <path
-                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0 0 16 4H4a2 2 0 0 0-1.997 1.884z"
-              />
-              <path
-                d="M18 8.118l-8 4-8-4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.118z"
-              />
-            </svg>
-            <span>
-              <a href="mailto:lukatalakvadze@gmail.com" target="_blank">
-                lukatalakvadze@gmail.com
-              </a>
-            </span>
-          </li>
-          <li class="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="size-5"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <span>
-              <a href="tel:+99555575326" target="_blank"> +995 555 57 53 26 </a>
-            </span>
-          </li>
-          <li class="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              class="size-5"
-            >
-              <path
-                d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.867 8.166 6.839 9.489.5.091.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.603-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.004.071 1.532 1.032 1.532 1.032.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.34-2.22-.253-4.555-1.112-4.555-4.946 0-1.092.39-1.986 1.029-2.684-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.853.004 1.71.115 2.511.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.099 2.65.64.698 1.028 1.592 1.028 2.684 0 3.842-2.338 4.69-4.566 4.939.36.31.679.922.679 1.859 0 1.342-.012 2.427-.012 2.756 0 .269.18.579.688.481C19.135 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z"
-              />
-            </svg>
-            <span>
-              <a
-                href="https://github.com/GhostHunter78"
-                target="_blank"
-                class="hover:underline"
+      <!-- contact and personal sections wrapper -->
+      <div class="flex flex-col sm:flex-row sm:gap-8 w-full">
+        <!-- contacts section -->
+        <section id="contacts" class="mb-6 flex-1">
+          <h2 class="section-title">Contact</h2>
+          <ul class="space-y-1">
+            <li class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="size-5"
               >
-                GhostHunter78
-              </a>
-            </span>
-          </li>
-        </ul>
-      </section>
-      <!-- Personal section -->
-      <section id="personal" class="mb-6">
-        <h2 class="text-lg font-semibold mb-2 text-blue-500">Personal</h2>
-        <ul class="space-y-1">
-          <li class="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              class="size-5"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-
-            <span> 01-07-2004</span>
-          </li>
-          <li class="flex items-center gap-2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              class="size-5"
-            >
-              <path
-                d="M10 2C6.13 2 3 5.13 3 9c0 5.25 6.08 9.54 6.35 9.72a1 1 0 0 0 1.3 0C10.92 18.54 17 14.25 17 9c0-3.87-3.13-7-7-7zm0 12c-2.485 0-4.5-2.015-4.5-4.5S7.515 5 10 5s4.5 2.015 4.5 4.5S12.485 14 10 14zm0-7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"
-              />
-            </svg>
-            <span> Tbilisi, Georgia </span>
-          </li>
-        </ul>
-      </section>
-      <!-- About me section -->
+                <path
+                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0 0 16 4H4a2 2 0 0 0-1.997 1.884z"
+                />
+                <path
+                  d="M18 8.118l-8 4-8-4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8.118z"
+                />
+              </svg>
+              <span>
+                <a href="mailto:lukatalakvadze@gmail.com" target="_blank">
+                  <span class="text-gray-600">lukatalakvadze@gmail.com</span>
+                </a>
+              </span>
+            </li>
+            <li class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="size-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2 3.5A1.5 1.5 0 0 1 3.5 2h1.148a1.5 1.5 0 0 1 1.465 1.175l.716 3.223a1.5 1.5 0 0 1-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 0 0 6.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 0 1 1.767-1.052l3.223.716A1.5 1.5 0 0 1 18 15.352V16.5a1.5 1.5 0 0 1-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 0 1 2.43 8.326 13.019 13.019 0 0 1 2 5V3.5Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>
+                <a href="tel:+99555575326" target="_blank">
+                  <span class="text-gray-600">+995 555 57 53 26</span>
+                </a>
+              </span>
+            </li>
+            <li class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                class="size-5"
+              >
+                <path
+                  d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.867 8.166 6.839 9.489.5.091.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.603-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.004.071 1.532 1.032 1.532 1.032.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.34-2.22-.253-4.555-1.112-4.555-4.946 0-1.092.39-1.986 1.029-2.684-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.853.004 1.71.115 2.511.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.099 2.65.64.698 1.028 1.592 1.028 2.684 0 3.842-2.338 4.69-4.566 4.939.36.31.679.922.679 1.859 0 1.342-.012 2.427-.012 2.756 0 .269.18.579.688.481C19.135 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z"
+                />
+              </svg>
+              <span>
+                <a
+                  href="https://github.com/GhostHunter78"
+                  target="_blank"
+                  class="hover:underline"
+                >
+                  <span class="text-gray-600">GhostHunter78</span>
+                </a>
+              </span>
+            </li>
+            <li class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                class="size-5"
+              >
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm15.5 11.268h-3v-5.604c0-1.336-.025-3.057-1.863-3.057-1.863 0-2.149 1.454-2.149 2.957v5.704h-3v-10h2.885v1.367h.041c.402-.763 1.386-1.566 2.855-1.566 3.053 0 3.616 2.011 3.616 4.626v5.573z"
+                />
+              </svg>
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/luka-talakvadze-375320296/"
+                  target="_blank"
+                  class="hover:underline"
+                >
+                  <span class="text-gray-600">lukatalakvadze</span>
+                </a>
+              </span>
+            </li>
+          </ul>
+        </section>
+        <!-- personal section -->
+        <section id="personal" class="mb-6 flex-1">
+          <h2 class="section-title">Personal</h2>
+          <ul class="space-y-1">
+            <li class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="size-5"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span class="text-gray-600">01-07-2004</span>
+            </li>
+            <li class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                class="size-5"
+              >
+                <path
+                  d="M10 2C6.13 2 3 5.13 3 9c0 5.25 6.08 9.54 6.35 9.72a1 1 0 0 0 1.3 0C10.92 18.54 17 14.25 17 9c0-3.87-3.13-7-7-7zm0 12c-2.485 0-4.5-2.015-4.5-4.5S7.515 5 10 5s4.5 2.015 4.5 4.5S12.485 14 10 14zm0-7a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z"
+                />
+              </svg>
+              <span class="text-gray-600">Tbilisi, Georgia </span>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <!-- about me section -->
       <section id="about-me" class="mb-6">
-        <h2 class="text-lg font-semibold mb-2 text-blue-500">About me</h2>
-        <p class="text-gray-500">
+        <h2 class="section-title">About me</h2>
+        <p class="text-gray-600">
           I am a front-end developer with a strong motivation to enhance my
           skills in alignment with the latest updates. Currently, I am focused
           on expanding and refining my knowledge through various experiences.
@@ -136,9 +198,9 @@
           passion for this field.
         </p>
       </section>
-      <!-- Skills section -->
+      <!-- skills section -->
       <section id="skills" class="mb-6">
-        <h2 class="text-lg font-semibold mb-2 text-blue-500">Skills</h2>
+        <h2 class="section-title">Skills</h2>
         <ul class="space-y-1">
           <li class="flex items-center gap-2 flex-wrap">
             <img
@@ -189,10 +251,308 @@
               title="Supabase"
               class="w-10 h-10"
             />
+            <img
+              src="./assets/git-icon.png"
+              alt="Git"
+              title="Git"
+              class="w-10 h-10"
+            />
+            <img
+              src="./assets/npm-icon.png"
+              alt="NPM"
+              title="NPM"
+              class="w-10 h-10"
+            />
           </li>
         </ul>
       </section>
-      <!-- Projects section -->
+      <!-- projects section -->
+      <section id="projects" class="mb-6">
+        <h2 class="section-title">Projects</h2>
+        <div class="flex flex-col gap-6">
+          <!-- Emplobase -->
+          <div class="card">
+            <div class="flex flex-col">
+              <div class="flex flex-col items-start justify-start gap-y-1">
+                <div class="flex items-center gap-x-2">
+                  <h3 class="card-title">Emplobase</h3>
+                  <a
+                    href="https://emplobase.com/"
+                    class="link-blue"
+                    target="_blank"
+                    >Live</a
+                  >
+                </div>
+                <span class="text-meta">(Next.js, Typescript, Supabase)</span>
+              </div>
+              <p class="card-description">
+                Currently, I am working on a startup called Emplobase
+                collaboratively with my mate. This project is an AI-powered
+                employee onboarding and training platform that transforms
+                company knowledge into personalized learning experiences. It
+                helps teams cut hiring time, accelerate productivity, and
+                onboard new employees in days instead of weeks.
+              </p>
+            </div>
+          </div>
+          <!-- HR Thoth -->
+          <div class="card">
+            <div class="flex flex-col">
+              <div class="flex flex-col items-start justify-start gap-y-1">
+                <div class="flex items-center gap-x-2">
+                  <h3 class="card-title">HR Thoth</h3>
+                  <a
+                    href="https://www.hrthoth.com/"
+                    class="link-blue"
+                    target="_blank"
+                    >Live</a
+                  >
+                </div>
+                <span class="text-meta">(Next.js, Typescript, Supabase)</span>
+              </div>
+              <p class="card-description">
+                HR Thoth is a comprehensive, AI-powered recruitment platform
+                designed to revolutionize the hiring process for both candidates
+                and organizations. This platform leverages cutting-edge
+                artificial intelligence to streamline job matching, optimize
+                applications, and provide deep insights into recruitment
+                metrics.
+              </p>
+            </div>
+          </div>
+          <!-- Moirge AI -->
+          <div class="card">
+            <div class="flex flex-col">
+              <div class="flex flex-col items-start justify-start gap-y-1">
+                <div class="flex items-center gap-x-2">
+                  <h3 class="card-title">Moirge AI</h3>
+                  <a
+                    href="moirge-ai-sage.vercel.app/"
+                    class="link-blue"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/GhostHunter78/moirge-ai"
+                    class="link-blue"
+                    target="_blank"
+                    >Repo</a
+                  >
+                </div>
+                <span class="text-meta">(Next.js, Typescript, Supabase)</span>
+              </div>
+              <p class="card-description">
+                Moirge is an AI-powered e-commerce platform (my ongoing side
+                project) designed for both buyers and sellers to enhance the
+                online shopping experience through advanced AI features. Buyers
+                can virtually try products using AI-based image manipulation,
+                while sellers can manage their stores and generate professional
+                product images, backgrounds, and marketing content. I am
+                actively developing the platform in my spare time, focusing on
+                scalable architecture, role-based dashboards, and a sustainable
+                business model.
+              </p>
+            </div>
+          </div>
+          <!-- Entertainment Web App -->
+          <div class="card">
+            <div class="flex flex-col">
+              <div class="flex flex-col items-start justify-start gap-y-1">
+                <div class="flex items-center gap-x-2">
+                  <h3 class="card-title">Entertainment Web App</h3>
+                  <a
+                    href="https://entertainment-web-app-lyart.vercel.app/"
+                    class="link-blue"
+                    target="_blank"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/GhostHunter78/entertainment-web-app"
+                    class="link-blue"
+                    target="_blank"
+                    >Repo</a
+                  >
+                </div>
+                <span class="text-meta">(React.js, Tailwind CSS)</span>
+              </div>
+              <p class="card-description">
+                This project is about one of my biggest hobbies - movies. In
+                this project I used the TMDB free source API to get different
+                kinds (cast, info, etc) of data. The project is fully responsive
+                and has lots of functionality.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- code example section with wrapper container -->
+      <div class="w-full">
+        <section id="code-example" class="mb-6 max-w-full">
+          <h2 class="section-title">Code Example</h2>
+
+          <div class="overflow-x-auto rounded-lg shadow-md bg-gray-900">
+            <pre
+              class="text-green-300 text-sm sm:text-base font-mono px-4 py-3 min-w-full"
+            >
+      <code>
+      function descendingOrder(n) {
+        if (n < 0) {
+          return null;
+        } else {
+          const converted = String(n).split("");
+          const descended = converted.sort().reverse();
+          const result = Number(descended.join(""));
+          return result;
+        }
+      }
+      </code>
+          </pre>
+          </div>
+        </section>
+      </div>
+      <!-- work experience section -->
+      <section id="work-experience" class="mb-6">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="flex flex-col gap-6">
+          <!-- Octarinox -->
+          <div class="card">
+            <div class="flex flex-col">
+              <div class="flex flex-col gap-y-1">
+                <div class="flex items-center gap-x-2 flex-wrap">
+                  <h3 class="card-title">Octarinox</h3>
+                  <span class="text-meta"> — Frontend Developer </span>
+                  <span class="text-meta"> (Jun 2025 – Nov 2025) </span>
+                </div>
+              </div>
+              <ul class="list-disc ml-5 text-sm text-gray-600 mt-2 space-y-1">
+                <li>
+                  Built and maintained multiple high-quality pages for
+                  <a
+                    href="https://www.hrthoth.com/"
+                    target="_blank"
+                    class="link-blue"
+                    >HR Thoth</a
+                  >
+                  using Next.js, TypeScript, and Tailwind, ensuring responsive
+                  and accessible UI.
+                </li>
+                <li>
+                  Implemented new product features end-to-end, integrating
+                  Supabase data with frontend components through server/client
+                  components and optimized queries.
+                </li>
+                <li>
+                  Designed and adapted database schemas in Supabase to align
+                  with evolving frontend requirements and improve data flow.
+                </li>
+                <li>
+                  Collaborated with backend and design teams to ensure smooth
+                  API integration, consistent UI/UX, and scalable architecture.
+                </li>
+                <li>
+                  Improved performance and code structure by introducing
+                  reusable components, validating data, and refactoring logic.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Crystal Bank -->
+          <div class="card">
+            <div class="flex flex-col">
+              <div class="flex flex-col gap-y-1">
+                <div class="flex items-center gap-x-2 flex-wrap">
+                  <h3 class="card-title">Crystal Bank</h3>
+                  <span class="text-meta"> — Frontend Developer Intern </span>
+                  <span class="text-meta"> (Nov 2024 – Feb 2025) </span>
+                </div>
+              </div>
+              <ul class="list-disc ml-5 text-sm text-gray-600 mt-2 space-y-1">
+                <li>
+                  Built responsive UI pages based on Figma designs using HTML5,
+                  CSS, JS.
+                </li>
+                <li>
+                  Learned fundamentals of databases, querying, and
+                  backend-to-frontend data flow.
+                </li>
+                <li>
+                  Gained practical experience in development workflows, Git, and
+                  component-based UI structure.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- education section -->
+      <section id="education" class="mb-6">
+        <h2 class="section-title">Education</h2>
+        <div class="flex flex-col items-start gap-y-2">
+          <div class="flex flex-col items-start gap-y-1">
+            <h3 class="card-title">Georgian Technical University</h3>
+            <span class="text-meta">
+              Bachelors Degree in Informational Technologies, Tbilisi, Georgia
+              (2022-present)
+            </span>
+          </div>
+          <div class="flex flex-col items-start gap-y-1">
+            <h3 class="card-title">
+              Tbilisi I.Vekua Physics-Mathematical School 42
+            </h3>
+            <span class="text-meta">
+              School, Tbilisi, Georgia (2016-2021)
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- English language section -->
+      <section id="english" class="mb-6">
+        <h2 class="section-title">English Language</h2>
+        <p class="text-gray-600">
+          I possess an upper-intermediate level (B2) proficiency in English,
+          both spoken and written. I actively practice English through daily use
+          in academic settings, technical documentation and programming
+          resources.
+        </p>
+      </section>
+      <footer
+        class="w-full mt-10 flex flex-col items-center justify-center gap-2 py-4 border-t border-blue-100"
+      >
+        <div class="flex items-center gap-4">
+          <a
+            href="https://github.com/GhostHunter78"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              class="size-5"
+            >
+              <path
+                d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.867 8.166 6.839 9.489.5.091.682-.217.682-.483 0-.237-.009-.868-.013-1.703-2.782.603-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.461-1.11-1.461-.908-.62.069-.608.069-.608 1.004.071 1.532 1.032 1.532 1.032.892 1.529 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.34-2.22-.253-4.555-1.112-4.555-4.946 0-1.092.39-1.986 1.029-2.684-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.853.004 1.71.115 2.511.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.099 2.65.64.698 1.028 1.592 1.028 2.684 0 3.842-2.338 4.69-4.566 4.939.36.31.679.922.679 1.859 0 1.342-.012 2.427-.012 2.756 0 .269.18.579.688.481C19.135 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z"
+              />
+            </svg>
+          </a>
+          <span class="text-meta">|</span>
+          <span class="text-gray-600 text-sm">2024</span>
+          <span class="text-meta">|</span>
+          <a
+            href="https://rs.school/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-1"
+          >
+            <img
+              src="./assets/rs-school-logo.svg"
+              alt="RS School Logo"
+              class="h-6 sm:h-8 lg:h-10"
+            />
+            <span class="sr-only">RS School</span>
+          </a>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
